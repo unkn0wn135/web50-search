@@ -5,15 +5,23 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class=index-menu>
+            <a href="imagesearch.html" class="index-menu-individu">Image Search</a>
+            <a href="advancedsearch.html" class="index-menu-individu">Advanced Search</a>
+        </div>
         <div class=index-all>
-            <div class="index-google">
-                <span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: orange;">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
+            <div class="index-google-logo">
+                <!-- Logo downloaded from https://www.google.com.my/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png -->
+                <img src="googleindex.png" alt="Google Homepage Logo">
             </div>
             <form action="https://google.com/search">
-                <input class="text-field" type="text" name="q"><br>
+                <input class="text-field" autofocus autocomplete="off" type="text" name="q"><br>
                 <input class="submit-btn" type="submit" value="Google Search">
-                <input class="submit-btn" type="submit" value="I'm Feeling Lucky">
+                <input class="submit-btn" type="submit" name="btnI" value="I'm Feeling Lucky">
             </form>
         </div>
     </body>
 </html>
+
+
+
