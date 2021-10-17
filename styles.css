@@ -41,6 +41,7 @@
 }
 
 .index-menu{
+    font-family: sans-serif;
     text-align: right;
     margin: 10px 10px;
 }
@@ -80,6 +81,7 @@
 }
 
 .advsearch-header{
+    font-family: sans-serif;
     margin: 40px 30px 0px 30px;
     font-size: 23px;
     color: #cc3700;
@@ -88,23 +90,26 @@
 }
 
 .adv-text-field{
-    width: 550px;
+    width: 600px;
     padding: 5px 10px;
     margin: 10px 0;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 17px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .adv-text-field:focus{
     outline: 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(0, 89, 255);
 }
 
 .adv-all{
-    text-align: left;
-    margin: 30px 30px;
+    font-family: sans-serif;
+    float: left;
+    margin: 30px 0px 30px 30px;
 }
 
 #find-pages-with{
@@ -112,17 +117,80 @@
 }
 
 #all-these{
-    margin: 10px 80px;
+    margin: 10px 0px 10px 87px;
 }
 
 #this-exact{
-    margin: 10px 16px;
+    margin: 10px 0px 10px 16px;
 }
 
 #any-of-these{
-    margin: 10px 57px;
+    margin: 10px 0px 10px 60px;
 }
 
 #none-of{
-    margin: 10px 50px;
+    margin: 10px 0px 10px 50px;
 }
+
+#find-pages-with{
+    margin: 10px 0px;
+}
+
+.adv-sub-btn .adv-submit-btn{
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border-style: none;
+    text-align: right;
+    background-color:  #0096FF;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.adv-sub-btn{
+    display:block;
+    text-align: right;
+}
+
+
+.desc-all{
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+.desc-indi{
+    font-family: sans-serif;
+    width: 85%;
+    margin-top: 34px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: grey;
+}
+
+#desc-header{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.582);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px){
+    #xa{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 850px){
+    .adv-text-field{
+        width: auto;
+        padding: 5px 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        font-size: 17px;
+        border-style: none;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+}
+
